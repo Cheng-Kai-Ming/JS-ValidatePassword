@@ -70,9 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ) {
       alert("Can't submit!!")
     } else {
-      cpsw_state()
       pswform.submit()
-      cpsw_state()
     }
   })
 
